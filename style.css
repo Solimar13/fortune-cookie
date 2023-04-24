@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closed-cookie,
+.opened-cookie {
+    margin-top: 15rem;
+    background: #FFFFFF;
+    width: 42.8rem;
+    height: 42.4rem;
+    text-align: center;
+    padding: 4.8rem 6.4rem 6.4rem;
+}
+
+.closed-cookie h1,
+.opened-cookie h1 {
+    color: #34355B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    margin-bottom: 1.4rem;
+}
+
+.closed-cookie p {
+    font-family: 'DM Sans', sans-serif;
+    color: #34355B;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.closed-cookie img {
+    cursor: pointer;
+}
+
+.opened-cookie {
+    height: 56.4rem;
+}
+
+.opened-cookie p {
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+    font-family: 'Dancing Script', cursive;
+    color: #000000;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    margin-bottom: 4rem;
+}
+
+.opened-cookie button {
+    background: #FF9500;
+    border-radius: 0.4rem;   
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 8rem;
+    padding: 1.6rem;
+    border: none;
+    cursor: pointer;
+}
+
+.opened-cookie button:hover {
+    opacity: 0.8;
+}
+
+
+.hide {
+    display: none;
+}
